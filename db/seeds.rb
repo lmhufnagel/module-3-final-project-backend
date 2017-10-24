@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+HauntedHouse.create(name: "Spooky Palace", description: "The scariest in all the land", location: "New York, NY")
+HauntedHouse.create(name: "Hell House", description: "You'll hate it here", location: "New York, NY")

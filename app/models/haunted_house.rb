@@ -1,0 +1,3 @@
+class HauntedHouse < ApplicationRecord
+  
+end
