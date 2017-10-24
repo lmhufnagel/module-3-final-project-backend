@@ -1,4 +1,4 @@
-class HauntedHousesController < ActionController::API
+class Api::HauntedHousesController < ApplicationController
 
   def create
   end
