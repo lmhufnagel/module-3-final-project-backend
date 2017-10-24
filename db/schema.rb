@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20171024141259) do
     t.string "name"
     t.string "description"
     t.string "location"
+    t.string "image"
   end
 
 end

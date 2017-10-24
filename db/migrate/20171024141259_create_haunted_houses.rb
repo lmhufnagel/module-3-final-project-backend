@@ -4,6 +4,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :description
       t.string :location
+      t.string :image
     end
   end
 end
