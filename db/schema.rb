@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20171024174851) do
   create_table "reviews", force: :cascade do |t|
     t.string "name"
     t.string "body"
+    t.integer "rating"
     t.integer "haunted_house_id"
   end
 

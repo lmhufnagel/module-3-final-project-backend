@@ -3,6 +3,7 @@ class CreateReviews < ActiveRecord::Migration[5.1]
     create_table :reviews do |t|
       t.string :name
       t.string :body
+      t.integer :rating
       t.integer :haunted_house_id
     end
   end

@@ -13,8 +13,8 @@ HauntedHouse.create(name: "Terror Behind the Walls", description: "Terror Behind
 Philadelphia PA 19130", image:"https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/f/dc/fdc6c7e2-97e8-11e6-9e8e-772712bf4bdc/580aa982b2eab.image.jpg?resize=1200%2C900")
 
 
-Review.create(name: "Lisa", body: "So Scary!", haunted_house_id: 1)
-Review.create(name: "Ryan", body: "Not scary enough", haunted_house_id: 2)
-Review.create(name: "Lisa", body: "Awesome!", haunted_house_id: 3)
-Review.create(name: "Ryan", body: "Terrible", haunted_house_id: 4)
-Review.create(name: "Terrance", body: "Poop", haunted_house_id: 2)
+Review.create(name: "Lisa", body: "So Scary!", rating: 5, haunted_house_id: 1)
+Review.create(name: "Ryan", body: "Not scary enough", rating: 2, haunted_house_id: 2)
+Review.create(name: "Lisa", body: "Awesome!", rating: 4, haunted_house_id: 3)
+Review.create(name: "Ryan", body: "Terrible", rating: 1, haunted_house_id: 4)
+Review.create(name: "Terrance", body: "Poop", rating: 0, haunted_house_id: 2)
