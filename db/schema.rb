@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20171024174851) do
     t.string "description"
     t.string "location"
     t.string "image"
+    t.integer "scare_factor"
   end
 
   create_table "reviews", force: :cascade do |t|

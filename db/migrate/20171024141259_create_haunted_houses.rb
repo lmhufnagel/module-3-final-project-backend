@@ -5,6 +5,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :location
       t.string :image
+      t.integer :scare_factor
     end
   end
 end
